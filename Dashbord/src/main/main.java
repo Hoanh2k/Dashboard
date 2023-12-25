@@ -5,6 +5,8 @@ import component.header;
 import component.menu;
 import event.eventMenuSelected;
 import form.Form_Home;
+import form.Form_MatHang;
+import form.Form_NhaCungCap;
 import form.Form_SanPham;
 import form.mainForm;
 import java.awt.Component;
@@ -48,6 +50,10 @@ public class main extends javax.swing.JFrame {
                 }else if(menuIndex ==1){
                     if(subMenuIndex == 0){
                         main.showForm(new Form_SanPham());
+                    }else if(subMenuIndex == 1){
+                        main.showForm(new Form_MatHang());
+                    }else if(subMenuIndex == 2){
+                        main.showForm(new Form_NhaCungCap());
                     }
                 }
             }
