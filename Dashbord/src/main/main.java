@@ -5,6 +5,7 @@ import component.header;
 import component.menu;
 import event.eventMenuSelected;
 import form.Form_Home;
+import form.Form_SanPham;
 import form.mainForm;
 import java.awt.Component;
 import java.awt.event.ActionEvent;
@@ -44,6 +45,10 @@ public class main extends javax.swing.JFrame {
                 System.out.println("Menu Index: " + menuIndex + " subMenu Index: " + subMenuIndex);
                 if(menuIndex == 0){
                     main.showForm(new Form_Home());
+                }else if(menuIndex ==1){
+                    if(subMenuIndex == 0){
+                        main.showForm(new Form_SanPham());
+                    }
                 }
             }
 

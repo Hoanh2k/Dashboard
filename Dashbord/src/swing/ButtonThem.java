@@ -8,7 +8,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.JButton;
 
-public class MyButton extends JButton {
+public class ButtonThem extends JButton {
 
     public boolean isOver() {
         return over;
@@ -59,7 +59,7 @@ public class MyButton extends JButton {
         this.radius = radius;
     }
 
-    public MyButton() {
+    public ButtonThem() {
         //  Init Color
 
         setColor(Color.WHITE);

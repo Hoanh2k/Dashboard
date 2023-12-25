@@ -34,8 +34,8 @@ public class Action extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        cmdEdit = new swing.Button();
-        cmdDelete = new swing.Button();
+        cmdEdit = new swing.ButtonXoa();
+        cmdDelete = new swing.ButtonXoa();
 
         cmdEdit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/edit.png"))); // NOI18N
 
@@ -62,7 +62,7 @@ public class Action extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private swing.Button cmdDelete;
-    private swing.Button cmdEdit;
+    private swing.ButtonXoa cmdDelete;
+    private swing.ButtonXoa cmdEdit;
     // End of variables declaration//GEN-END:variables
 }

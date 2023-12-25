@@ -26,7 +26,7 @@ public class header extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        cmdMenu = new swing.Button();
+        cmdMenu = new swing.ButtonXoa();
         pic = new swing.ImageAvatar();
         lblTenNVDangNhap = new javax.swing.JLabel();
         lblVaiTroNhanVienDangNhap = new javax.swing.JLabel();
@@ -79,7 +79,7 @@ public class header extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private swing.Button cmdMenu;
+    private swing.ButtonXoa cmdMenu;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JLabel lblTenNVDangNhap;
     private javax.swing.JLabel lblVaiTroNhanVienDangNhap;

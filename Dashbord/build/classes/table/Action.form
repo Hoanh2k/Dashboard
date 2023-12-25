@@ -37,14 +37,14 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="swing.Button" name="cmdEdit">
+    <Component class="swing.ButtonXoa" name="cmdEdit">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/icon/edit.png"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="swing.Button" name="cmdDelete">
+    <Component class="swing.ButtonXoa" name="cmdDelete">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/icon/Accept.png"/>

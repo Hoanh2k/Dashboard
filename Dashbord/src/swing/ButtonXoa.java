@@ -16,7 +16,7 @@ import org.jdesktop.animation.timing.Animator;
 import org.jdesktop.animation.timing.TimingTarget;
 import org.jdesktop.animation.timing.TimingTargetAdapter;
 
-public class Button extends JButton {
+public class ButtonXoa extends JButton {
 
     public Color getEffectColor() {
         return effectColor;
@@ -33,10 +33,11 @@ public class Button extends JButton {
     private float alpha;
     private Color effectColor = new Color(173, 173, 173);
 
-    public Button() {
+    public ButtonXoa() {
         setContentAreaFilled(false);
         setBorder(new EmptyBorder(5, 5, 5, 5));
-        setBackground(Color.WHITE);
+        setBackground(Color.RED);
+        setForeground(new Color(255,255,255));
         setCursor(new Cursor(Cursor.HAND_CURSOR));
         addMouseListener(new MouseAdapter() {
             @Override
